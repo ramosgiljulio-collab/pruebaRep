@@ -64,19 +64,7 @@ public record Date(int day, int month, int year) {
    * @param year  The year (should ideally be within the valid range of 1900 to 2050 for validation
    *              to pass).
    */
-  public Date(int tag, int monat, int jahr) {
-      this.day=tag;
-      this.month=monat;
-      this.year=jaht;
-  }
-
-  public Date(int dia, int mes, int año) {
-
-    this.day = dia;
-    this.month = mes;
-    this.year = año;
-
-
+  public Date(int day , int month, int year) {
     this.day = day;
     this.month = month;
     this.year = year;
